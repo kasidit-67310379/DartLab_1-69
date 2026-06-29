@@ -11,6 +11,14 @@ void main()
   
   Map<String, int> studentScores =
   {
-    "Intro com"
-  }
+    "Intro com" : 66,
+    "Math" : 67,
+  };
+  print("Math Scores is ${studentScores["Math"]}");
+  
+  studentScores["Physic"] = 68;
+  print(studentScores);
+
+  print(studentScores.keys);
+  print(studentScores.values);
 }
